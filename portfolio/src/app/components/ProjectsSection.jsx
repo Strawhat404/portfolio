@@ -7,38 +7,38 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Agriconnect Website",
+    description: "A system that connects farmers,merchants,logistics and other services like guide,loan packages and such for farmers",
+    image: "/images/projects/agriconnect.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://agribuyer.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Real states Website",
+    description: "A website for real states to show case their buildings and for retailers to buy houses",
+    image: "/images/projects/realstates.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "http://josephrealestates.pages.dev",
   },
   {
     id: 3,
     title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    description: "An ecommerce app for modern shops",
+    image: "/images/projects/E-commerce.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    title: "python Word Dictionary Application",
+    description: "An English dictionary that gives definitions of any English word. made in love with python",
+    image: "/images/projects/Python-word-dictionary.png",
+    tag: ["All", "Python"],
+    gitUrl: "https://github.com/P1R47E/python-English-word-Dictionary",
     previewUrl: "/",
   },
   {
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Python"
+          isSelected={tag === "Python"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -123,5 +123,6 @@ const ProjectsSection = () => {
       </ul>
     </section>
   );
+};
 
 export default ProjectsSection;

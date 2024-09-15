@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Python</li>
         <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
+        <li>C++</li>
         <li>React</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
       </ul>
     ),
   },
@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>University of Arbaminch,Ethiopia</li>
+        <li>2025 Art School in Photography and PhotoEditing</li>
       </ul>
     ),
   },
@@ -33,8 +33,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Univeristy of Arbaminch Ethiopia</li>
+        <li>CASE Exhibition of Innovators Arbaminch Ethiopia</li>
+        <li>2025 Art School in Photography and PhotoEditing</li>
       </ul>
     ),
   },
@@ -57,12 +58,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a passionate Software Engineer with a strong foundation in backend development, web technologies, and problem-solving. I hold a bachelor's degree in Software Engineering from the University of Arbaminch and have a diverse portfolio that spans web development, mobile app solutions, and photography.
+          </p>
+          <p className= "pt-4">
+          In addition to my technical skills, I am a part time Forex trader and mentor, helping others succeed in trading and various side hustles through my Telegram channel. Whether working on a backend system, solving complex problems, or capturing compelling stories through photography, I am driven by the desire to create impactful solutions.
+
+
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
