@@ -9,12 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Python</li>
-        <li>Node.js</li>
-        <li>C++</li>
+        <li>Full Stack Development</li>
+        <li>Django</li>
+        <li>Node</li>
+        <li>Next</li>
+        <li>Vue</li>
         <li>React</li>
-        <li>JavaScript</li>
-        <li>Kotlin</li>
+        <li>Tailwind</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>SEO</li>
       </ul>
     ),
   },
@@ -23,8 +27,12 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>University of Arbaminch,Ethiopia</li>
-        <li>2025 Art School in Photography and PhotoEditing</li>
+        <li>Software Engineering, Arbaminch University & Mekelle University</li>
+    <li>Zsecurity Ethical Hacking and CyberSecurity</li>
+    <li>Hedera Hashgraph Development</li>
+    <li>MeliaCred AI Mastery</li>
+    <li>Awaki Digital Marketing and Social Media Algorithms</li>
+    <li>2025 Art School in Photography and PhotoEditing</li>
       </ul>
     ),
   },
@@ -33,9 +41,13 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Univeristy of Arbaminch Ethiopia</li>
-        <li>CASE Exhibition of Innovators Arbaminch Ethiopia</li>
-        <li>2025 Art School in Photography and PhotoEditing</li>
+        <li>MeliaCred AI Mastery</li>
+        <li>CASE  Innovator of 2024, Arbaminch Ethiopia</li>
+        <li >ICDFA Cybersecurity and Forensics..coming soon</li>
+        <li>Hedera Hashgraph Developer</li>
+        <li>First ever Ethiopian NID Hackathon Finalist</li>
+        <li>Awaki Digital Marketing and Social Media Algorithms</li>
+        <li>10Academy AI mastery ..coming soon</li>
       </ul>
     ),
   },
@@ -58,12 +70,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a passionate Software Engineer with a strong foundation in backend development, web technologies, and problem-solving. I hold a bachelor's degree in Software Engineering from the University of Arbaminch and have a diverse portfolio that spans web development, mobile app solutions, and photography.
+            I'm an innovative software engineer with a deep interest in leveraging technology to solve real world problems. My work is centered around creating impactful digital solutions.
           </p>
-          <p className= "pt-4">
-          In addition to my technical skills, I am a part time Forex trader and mentor, helping others succeed in trading and various side hustles through my Telegram channel. Whether working on a backend system, solving complex problems, or capturing compelling stories through photography, I am driven by the desire to create impactful solutions.
-
-
+          <p className="pt-4">
+            I am driven by a desire to share knowledge, empower others, and create meaningful change through technology and finance. I'm always looking for opportunities to collaborate, innovate, and push the boundaries of what's possible in both technology and leads.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
