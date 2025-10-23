@@ -8,7 +8,7 @@ import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-black relative overflow-hidden">
+    <main className="flex min-h-screen flex-col bg-white dark:bg-black relative overflow-hidden">
       {/* Subtle background particles */}
       <div className="fixed inset-0 -z-10 pointer-events-none">
         {[...Array(10)].map((_, i) => (
